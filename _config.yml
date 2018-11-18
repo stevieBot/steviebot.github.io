@@ -4,17 +4,17 @@ markdown:	kramdown
 permalink:	/blog/:title
 
 # Setup
-title:            Thinny
-tagline:          'blog'
-description:      'My personal blog.'
-url:              http://camporez.github.io
+title:            StevieBot
+tagline:          'Logs'
+description:      'StevieBot Logs'
+url:              http://steviebot.github.io
 baseurl:          
 commentsystem:    google
 disqus:           example
 
 author:
-  name:           Ian Brunelli
-  url:            https://google.com/+IanCamporezBrunelli
+  name:           steviebot
+  url:            https://steviebot.github.io
 
 paginate:         5
 
@@ -47,8 +47,8 @@ menu:
     url:          /about
 
 copyright:
-  author:         Camporez
-  url:            http://camporez.github.io
+  author:         StevieBot
+  url:            http://steviebot.github.io
   type_title:     Some rights reserved
   type_url:       http://creativecommons.org/licenses/by-nc/2.5
 
