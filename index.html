@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<header class="clean" style="height: 80%; border: none; background-image: url({{ site.cover }}); {% if site.parallax != true %}background-attachment: scroll;{% endif %}" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
+<header class="clean" style="height: 100%; border: none; background-image: url({{ site.cover }}); {% if site.parallax != true %}background-attachment: scroll;{% endif %}" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
 	{% include top.html %}
 	<!--
 		<a href="{{ site.url }}{{ site.baseurl }}">
@@ -15,6 +15,8 @@ title: Home
 <div id="post-list">
 	{% for post in paginator.posts %}
 		<div>
+			Update will be posted soon.
+			Stay tuned.
 			<span class="post-date">{{ post.date | date_to_long_string }}</span>
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 			<p class="post-description">{% if post.quote %}{{ post.quote }}{% else %}{{ post.content | strip_html | truncatewords: 50 }}{% endif %}</p>
