@@ -1183,8 +1183,8 @@ games?<o:p></o:p></span></h2>
 
 <p class=MsoNormal style='margin-left:.5in'><span style='font-size:18.0pt'>It
 learns the action-value function <span class=GramE>Q(</span>s, a), how good to
-take an action at a particular state. Here, actions are player’s movements, and
-state is Atari game’s display<span style='mso-spacerun:yes'>&nbsp;&nbsp;
+take an action at a particular state. Here, actions are player's movements, and
+state is Atari game's display<span style='mso-spacerun:yes'>&nbsp;&nbsp;
 </span>pixel information. This means simply that it tells how good is an action
 for given state. With this function, you can evaluate some candidate actions
 for given state, and take the best action.<o:p></o:p></span></p>
@@ -1277,7 +1277,7 @@ v:shapes="Picture_x0020_2"><![endif]></span><span style='font-size:18.0pt'><o:p>
 target network: If we create two networks, we can use first one to retrieve Q
 values while the second one includes all updates in the training. After some
 episodes, we need to synchronize two network. This approach will fix the
-Q-value target temporally, so we don’t a moving target anymore.<o:p></o:p></span></p>
+Q-value target temporally, so we don't a moving target anymore.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:18.0pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1297,11 +1297,8 @@ v:shapes="Picture_x0020_3"><![endif]></span><span style='font-size:18.0pt'><o:p>
 <p class=MsoNormal><span style='font-size:18.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:18.0pt'>Bellman error gradients could
-be big </span><span style='font-size:18.0pt;font-family:Wingdings;mso-ascii-font-family:
-Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;mso-char-type:symbol;mso-symbol-font-family:
-Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
-style='font-size:18.0pt'> Use clip gradients or use Huber loss<o:p></o:p></span></p>
+be big </span><span
+style='font-size:18.0pt'> -> Use clip gradients or use Huber loss<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:18.0pt'><o:p>&nbsp;</o:p></span></p>
 
